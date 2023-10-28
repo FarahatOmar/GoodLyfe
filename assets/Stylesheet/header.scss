@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+$primary-color: #E43071;
+$secondary-color: #fff;
+$third-color:#FFC1D8;
+$forth-color: #BE285E;
+
+
+a {
+    text-decoration: none;
+    color: $secondary-color;
+}
+
+
+header {
+    background-color: #E43071;
+
+
+
+.nav {
+    display: flex;
+    color: #fff;
+    max-width: 1400px;
+    height: 100px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+
+
+    &__logo {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 30px;
+
+        span {
+            color: #FFC1D8;
+
+        }
+
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        ul {
+            display: flex;
+            list-style: none;
+            margin-right: 15px;
+
+            li {
+                margin-left: 50px;
+
+                a{
+                    color: $secondary-color;
+                    transition: color 0.3s ease;
+
+                    &:hover{
+                        color:  #FFC1D8;
+
+
+                    }
+                }
+            }
+
+        }
+
+
+    }
+
+   
+
+
+    &__LoginButton {
+        padding: 15px 60px;
+        margin-left: 15px;
+        border-radius: 200px;
+        border: none;
+        background: $secondary-color;
+       
+
+        a{
+            color: $primary-color;
+            transition: color 0.4s ease all;
+
+            font-weight: bold;
+
+
+
+        }
+        &:hover{
+            // box-shadow: 0 0 10px  #ffffff;
+            background: $forth-color;
+            
+
+            transition: 0.4s ease all;
+
+
+            a{
+                color: #ffffff;
+            }
+                
+            
+
+
+
+        }
+    }
+
+
+}
+}
+

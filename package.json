@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "csso": "^5.0.5"
+    
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0"
+  },
+  "scripts": {
+    "minify-css": "gulp minify-css"
+  }
+}

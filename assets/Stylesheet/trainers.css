@@ -1,0 +1,58 @@
+/* styles.scss */
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Main Content Styles */
+main {
+  padding: 2rem;
+}
+
+/* Trainer List Styles */
+.trainer-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+}
+
+/* Trainer Profile Styles */
+.trainer {
+  background-color: #fff;
+  color: #E43071;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.trainer:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 30px #E43071;
+}
+.trainer img {
+  width: 220px;
+  height: 265px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+.trainer h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+.trainer .specialty {
+  color: #D9DBE1;
+  margin: 0.5rem 0;
+}
+.trainer .bio {
+  margin-top: 1rem;
+  color: #333;
+}/*# sourceMappingURL=trainers.css.map */

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  background-color: #E43071;
+}
+header .nav {
+  display: flex;
+  color: #fff;
+  max-width: 1400px;
+  height: 100px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+header .nav__logo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+}
+header .nav__logo span {
+  color: #FFC1D8;
+}
+header .nav__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .nav__menu ul {
+  display: flex;
+  list-style: none;
+  margin-right: 15px;
+}
+header .nav__menu ul li {
+  margin-left: 50px;
+}
+header .nav__menu ul li a {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+header .nav__menu ul li a:hover {
+  color: #FFC1D8;
+}
+header .nav__LoginButton {
+  padding: 15px 60px;
+  margin-left: 15px;
+  border-radius: 200px;
+  border: none;
+  background: #fff;
+}
+header .nav__LoginButton a {
+  color: #E43071;
+  transition: color 0.4s ease all;
+  font-weight: bold;
+}
+header .nav__LoginButton:hover {
+  background: #BE285E;
+  transition: 0.4s ease all;
+}
+header .nav__LoginButton:hover a {
+  color: #ffffff;
+}/*# sourceMappingURL=header.css.map */

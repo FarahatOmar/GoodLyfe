@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+
+$primary-color: #E43071;
+$secondary-color: #fff;
+$third-color:#FFC1D8;
+$forth-color: #BE285E;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+    a {
+        color: $secondary-color;
+        text-decoration: none;
+    }
+
+    button {
+        cursor: pointer;
+
+    }
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+   
+
+}
+
+button {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+
+    color: $primary-color;
+
+
+}
+
+
+.loginContainer{
+    padding: 200px;
+    color: $secondary-color;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 700px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 110PX;
+
+    h1{
+        margin-bottom:20px ;
+        color: $primary-color;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+label {
+    font-weight: bold;
+}
+
+input {
+    
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+p{
+    color:#0B0D17 ;
+    
+    a{
+        color: $forth-color;
+    }
+}
+
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+/* Style the authentication container and Pills tabs */
+
+.auth-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 50px;
+
+    #signup-form{
+        .form-control{
+            margin: 14px 0 ;
+        }
+
+    }
+    #signin-form{
+        margin-top: 14px ;
+    }
+    
+    .nav-pills .nav-link.active{
+        background-color: $forth-color;
+    }
+    .nav-link{
+        color: #0B0D17;
+    }
+    .btn-primary{
+        
+    }
+}

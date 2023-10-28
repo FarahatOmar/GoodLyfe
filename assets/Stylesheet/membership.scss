@@ -1,0 +1,98 @@
+
+
+
+
+
+$primary-color: #E43071;
+$secondary-color: #fff;
+
+
+main {
+    padding: 110px 0;
+    background-image: url(assets/Images/garrett-butler-UrJ-fn2iRUM-unsplash.jpg) ;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    h1{
+      text-align: center;
+      font-weight: 600px;
+      padding:100px 0 ;
+      margin: 10px 0 ;
+      color: $secondary-color;
+    }
+  }
+  
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+
+
+  a {
+    text-decoration: none;
+    color: $secondary-color;
+  }
+
+button {
+    cursor: pointer;
+
+}
+
+}
+  /* Membership Plans Styles */
+  .membership-plans {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 30px;
+
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  /* Membership Plan Styles */
+  .membership-plan {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    height: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 0;
+    }
+  
+    .price {
+      color: $primary-color;
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+  
+    .features {
+      list-style: none;
+      padding: 0;
+      margin-top: 1.5rem;
+  
+      li {
+        margin: 0.5rem 0;
+      }
+    }
+  
+    .btn-join {
+      background-color: $primary-color;
+      position: relative;
+      bottom: 0px; 
+     
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-top: 15px;
+  
+      &:hover {
+        background-color: #555;
+      }
+    }
+  }

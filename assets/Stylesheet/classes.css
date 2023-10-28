@@ -1,0 +1,70 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  padding: 2rem;
+}
+
+.class-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  padding: 100px 0;
+}
+
+.class-item {
+  background-color: white;
+  padding: 1.5rem;
+  flex-basis: calc(33.33% - 2rem);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 300px; /* Adjust the height as needed */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.class-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 30px #E43071;
+}
+.class-item .class-details {
+  background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent background for readability */
+  padding: 1.5rem;
+  text-align: center;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.class-item .class-details h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.class-item .class-details .instructor, .class-item .class-details .time {
+  color: #777;
+  margin: 0.5rem 0;
+}
+.class-item .class-details .description {
+  margin-bottom: 1rem;
+}
+.class-item .class-details .btn-signup {
+  background-color: #E43071;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.class-item .class-details .btn-signup:hover {
+  background-color: #BE285E;
+}/*# sourceMappingURL=classes.css.map */

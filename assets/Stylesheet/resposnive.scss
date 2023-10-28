@@ -1,0 +1,388 @@
+@media (max-width: 900px) {
+
+    header{
+
+
+    .nav {
+        
+      
+        &__burger {
+            display: block;
+            cursor: pointer;
+            z-index: 4;
+            font-size: 2rem;
+
+
+            .burger__line {
+                width: 30px;
+                height: 4px;
+                background-color: #fff;
+                margin: 4px 0;
+                transition: transform 0.3s, opacity 0.3s;
+
+            }
+        }
+
+        .nav__burger.active .burger__line:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 6px);
+        }
+
+        .nav__burger.active .burger__line:nth-child(2) {
+            opacity: 0;
+        }
+
+        .nav__burger.active .burger__line:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -6px);
+        }
+
+
+        &__burger.active {
+            font-size: 2rem;
+        }
+        
+        &__menu {
+            display: none;
+
+        }
+
+        &__menu.active {
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            top: 0;
+            position: fixed;
+            background: black;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+
+
+            ul {
+                display: block;
+                list-style: none;
+
+                a {
+                    font-size: 60px;
+                }
+
+                li {
+                    margin-bottom: 45px;
+                    margin-left: 0px;
+
+
+
+                }
+
+
+            }
+
+
+        }
+
+        &__search {
+            display: none;
+
+
+
+
+        }
+
+
+
+
+        &__LoginButton {
+            margin-top: 40px;
+            font-size: 65px;
+            padding: 15px 60px;
+            border-radius: 200px;
+            border: none;
+            color: #E43071;
+        }
+
+
+
+    }
+}
+
+    .hero {
+        height: 469px;
+
+    }
+    
+
+    .two {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+
+        &__imagesContainer:nth-child(1) {
+            order: 1;
+            /* Change order for the left item */
+        }
+
+        &__text:nth-child(2) {
+            order: 2;
+            /* Change order for the right item */
+        }
+
+        &__imagesContainer {
+            padding: 20px 0;
+
+
+        }
+
+
+        &__imagesContainer .img2 {
+            position: absolute;
+            top: 238px;
+            left: 185px;
+            width: 180px;
+            height: 240px;
+        }
+
+        &__imagesContainer .img1 {
+
+            width: 240px;
+            height: 250px;
+        }
+
+        &__text {
+            padding: 0 30px;
+            max-width: 400px;
+        }
+
+
+
+    }
+
+    .three {
+
+
+
+        &__text {
+            max-width: 500px;
+            margin: 0 auto;
+
+
+            h2 {
+                font-size: 40px;
+
+            }
+
+
+        }
+    }
+
+    .four {
+
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+
+        &__imagesContainer:nth-child(2) {
+            order: 1;
+            /* Change order for the left item */
+        }
+
+        &__text:nth-child(1) {
+            order: 2;
+            /* Change order for the right item */
+        }
+
+        &__imagesContainer {
+            grid-column: 1;
+            margin-top: 57px;
+            grid-column: 1;
+            padding: 20px 0;
+
+
+
+
+
+
+            .img1 {
+                position: absolute;
+
+                width: 180px;
+                height: 250px;
+                top: 32px;
+                left: 168px;
+
+
+
+
+            }
+
+            .img2 {
+
+                width: 240px;
+                height: 250px;
+            }
+        }
+
+        &__text {
+
+            max-width: 400px;
+            padding: 0 30px;
+
+
+            h2 {
+                margin-bottom: 10px;
+                line-height: 30px
+            }
+
+        }
+    }
+
+    .five {
+
+        &__gridContainer {
+            grid-template-columns: 1fr;
+        }
+
+        &__item {
+            grid-column: 1;
+        }
+
+        &__item1,
+        &__item4 {
+            transform: none;
+
+        }
+    }
+
+
+    .six {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+
+        &__textContainer {
+            padding: 50px;
+            margin: 0;
+        }
+
+        &__description {
+            line-height: 30px;
+            max-width: 300px;
+
+
+        }
+
+        &__imgContainer {
+
+
+
+
+            .app2 {
+                margin: 0;
+            }
+
+
+
+        }
+
+        &__overlay {
+            width: 72%;
+        }
+
+        &__overlayText {
+
+
+            h3 {
+                margin: 0;
+                font-size: 14px;
+
+                p {
+                    font-size: 7px;
+                    line-height: 13px;
+                }
+            }
+        }
+
+        &__overlayImg {
+
+            padding: 0;
+
+            .img2 {
+                top: 63px;
+                left: 39px;
+                height: 110px;
+                width: 87px;
+            }
+        }
+
+        &__imgContainer--app2 {
+            top: 50px;
+
+
+        }
+    }
+
+    .social {
+        &__circle {
+            padding: 20px;
+        }
+    }
+
+
+    .footer {
+
+        padding: 50px 10px;
+
+        &__grid {
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+
+        &__last {
+            flex-direction: column;
+
+
+        }
+
+        &__last--list ul li {
+            margin-left: 4px;
+            font-size: 12px;
+        }
+    }
+}
+
+/* Tablet styles */
+@media (max-width: 970px) {
+    .two {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+
+        &__imagesContainer:nth-child(1) {
+            order: 1;
+            /* Change order for the left item */
+        }
+
+        &__text:nth-child(2) {
+            order: 2;
+            /* Change order for the right item */
+        }
+        &__imagesContainer .img2 {
+            position: absolute;
+            top: 238px;
+            left: 185px;
+            width: 180px;
+            height: 240px;
+        }
+
+        &__imagesContainer .img1 {
+
+            width: 240px;
+            height: 250px;
+        }
+    }
+}
+
+    

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoodLyfe - Login</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/Stylesheet/login.css">
+    <link rel="stylesheet" href="assets/Stylesheet/styles.min.css" >
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+
+
+
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav__logo" style="text-decoration:none"><a href="index.html">Good<span>Lyfe</span></a></div>
+           <div class="nav__burger" id="nav-burger">
+                <div class="burger__line"></div>
+                <div class="burger__line"></div>
+                <div class="burger__line"></div> 
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul>     
+                <li><a href="classes.html">Classes</a></li>    
+                <li> <a href="trainers.html">Trainers</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                </ul>
+                <div><button class="nav__LoginButton"><a href="/login.html">Login</a></button></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="auth-container">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="pill" href="#signin-tab">Sign In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#signup-tab">Sign Up</a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <!-- Sign In Tab -->
+                <div class="tab-pane fade show active" id="signin-tab">
+                    <form id="signin-form">
+                        <div class="form-group">
+                            <input type="email" class="form-control " id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign In</button>
+                        <div id="signin-success" class="success-message"></div>
+
+                    </form>
+                </div>
+
+                <!-- Sign Up Tab -->
+                <div class="tab-pane fade" id="signup-tab">
+                    <form id="signup-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="Firstname" placeholder=" First name">
+                            <input type="text" class="form-control" id="Lastname" placeholder=" Last name">
+                            <input type="email" class="form-control" id="new-email" placeholder=" Email">
+                            <input type="password" class="form-control" id="new-password" placeholder="Password">
+                            <input type="password" class="form-control" id="Confirm-password" placeholder=" Confirm password">
+
+
+                        </div>
+                        <button type="submit" class="btn btn-success">Sign Up</button>
+                        <div id="signup-success" class="success-message"></div>
+
+                    </div>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <footer class="footer">
+        <div class="footer__grid">
+            <div class="footer__item footer__item--primary">
+                <div class="footer__logo">Good<span>Lyfe</span></div>
+              
+                <div class="social">
+                    <div class="circle"><a href=""><img src="assets/Images/Instagram.svg" alt=""></a></div>
+                    <div class="circle"><a href=""><img src="assets/Images/Dribbble.svg" alt=""></a></div>
+                    <div class="circle"><a href=""><img src="assets/Images/Twitter.svg" alt=""></a></div>
+                    <div class="circle"><a href=""><img src="assets/Images/Youtube.svg" alt=""></a></div>
+
+
+                </div>
+
+
+
+
+            </div>
+            <div class="footer__item footer__item--qLinks">
+
+                <h2>Quick Links</h2>
+                <ul>
+                    <li> <a href="">Classes</a>
+                    </li>
+                    <li> <a href="">Timetable</a>
+                    </li>
+                    <li> <a href="">Clubs</a>
+                    </li>
+                    <li> <a href="">Nutrition</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__item footer__item--guides">
+                <h2>Guides</h2>
+                <ul>
+                    <li> <a href="">Weight loss</a>
+                    </li>
+                    <li> <a href="">Strength Gain</a>
+                    </li>
+                    <li> <a href="">Crossfit</a>
+                    </li>
+                    <li> <a href="">Washbaord Abs</a>
+                    </li>
+                    <li> <a href="">Dieting</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__item footer__item--contacts">
+                <h2>Reach us</h2>
+                <ul>
+                    <li><img src="assets/Images/Message.svg" alt="">admin@goodlyfe.co</li>
+                    <li><img src="assets/Images/Calling.svg" alt=""> +88 98765 43210</li>
+                    <li><img src="assets/Images/Location.svg" alt="">90210 Beverly Hills
+                        California USA</li>
+                </ul>
+
+            </div>
+
+
+
+        </div>
+        <div class="footer__last">
+            <div class="footer__last footer__last--copyright">
+                <p>© 2023 GoodLyfe. All rights reserved</p>
+            </div>
+            <div class="footer__last footer__last--list">
+                <ul>
+                    <li><a href="">Terms & Conditions |</a></li>
+                    <li><a href="">Privacy Policy |</a></li>
+                    <li><a href="">Sitemap |</a></li>
+                    <li><a href="">Disclaimer</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+    <script src="assets/Scripts/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+   
+    
+</body>
+</html>
