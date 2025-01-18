@@ -21,4 +21,4 @@ This project is a gym website built with HTML, SCSS, CSS, and JavaScript. It con
   - Best practices followed for clean code and security.
 
 
-## Demo : https://farahatomar.github.io/GoodLyfe.github.io-/
+## Demo : https://farahatomar.github.io/GoodLyfe/
